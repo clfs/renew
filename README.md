@@ -44,7 +44,7 @@ Update a go-installed binary to `@latest`:
 
 ```text
 $ renew -update staticcheck
-==== staticcheck ====
+==== staticcheck
 [+] updated!
 ```
 
