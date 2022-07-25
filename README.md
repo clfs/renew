@@ -12,7 +12,7 @@ go install github.com/clfs/renew@latest
 
 Uninstall `renew`:
 ```text
-$ rm $(which renew)
+rm $(which renew)
 ```
 
 ## Usage
