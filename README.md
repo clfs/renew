@@ -10,6 +10,11 @@ Install `renew`:
 go install github.com/clfs/renew@latest
 ```
 
+Uninstall `renew`:
+```text
+$ rm $(which renew)
+```
+
 ## Usage
 Run `renew` for help:
 
