@@ -139,8 +139,7 @@ func NewUpdater() *Updater {
 	}
 }
 
-// Update updates the given binary to the latest version. It runs "go install"
-// and writes any errors to w.
+// Update updates the given binary to the latest version.
 func (u *Updater) Update(bin Binary) error {
 	u.mtx.Lock()
 	defer u.mtx.Unlock()
